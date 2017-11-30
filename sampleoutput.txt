@@ -1,0 +1,199 @@
+Enter the starting point :G
+Enter destination :F
+In open :G -> 0
+Smallest in open : G
+Returned node element: G
+Current node: G
+Connecting node: A
+fscore of node A :176
+A not in the list or has higher fscore in the list
+A not in the list or has higher fscore in the list
+Pushed value :A
+Connecting node: B
+fscore of node B :152
+B not in the list or has higher fscore in the list
+B not in the list or has higher fscore in the list
+Pushed value :B
+Connecting node: C
+fscore of node C :145
+C not in the list or has higher fscore in the list
+C not in the list or has higher fscore in the list
+Pushed value :C
+Connecting node: I
+fscore of node I :140
+I not in the list or has higher fscore in the list
+I not in the list or has higher fscore in the list
+Pushed value :I
+Connecting node: J
+fscore of node J :272
+J not in the list or has higher fscore in the list
+J not in the list or has higher fscore in the list
+Pushed value :J
+Pushed value :G
+In open :A -> 176 B -> 152 C -> 145 I -> 140 J -> 272
+Smallest in open : I
+Returned node element: I
+Current node: I
+Connecting node: D
+fscore of node D :206
+D not in the list or has higher fscore in the list
+D not in the list or has higher fscore in the list
+Pushed value :D
+Connecting node: F
+Found
+Outside while loop.
+No in open :5
+G -> I -> F
+
+Enter the starting point :D
+Enter destination :E
+In open :D -> 0
+Smallest in open : D
+Returned node element: D
+Current node: D
+Connecting node: C
+fscore of node C :173
+C not in the list or has higher fscore in the list
+C not in the list or has higher fscore in the list
+Pushed value :C
+Connecting node: F
+fscore of node F :240
+F not in the list or has higher fscore in the list
+F not in the list or has higher fscore in the list
+Pushed value :F
+Connecting node: H
+fscore of node H :162
+H not in the list or has higher fscore in the list
+H not in the list or has higher fscore in the list
+Pushed value :H
+Connecting node: I
+fscore of node I :219
+I not in the list or has higher fscore in the list
+I not in the list or has higher fscore in the list
+Pushed value :I
+Pushed value :D
+In open :C -> 173 F -> 240 H -> 162 I -> 219
+Smallest in open : H
+Returned node element: H
+Current node: H
+Connecting node: B
+fscore of node B :247
+B not in the list or has higher fscore in the list
+B not in the list or has higher fscore in the list
+Pushed value :B
+Connecting node: C
+fscore of node C :305
+C is in list with fscore less than 305
+Connecting node: D
+fscore of node D :294
+D not in the list or has higher fscore in the list
+D is in list with fscore less than 294
+Connecting node: E
+Found
+Outside while loop.
+No in open :4
+D -> H -> E
+
+Enter the starting point :A
+Enter destination :E
+In open :A -> 0
+Smallest in open : A
+Returned node element: A
+Current node: A
+Connecting node: B
+fscore of node B :110
+B not in the list or has higher fscore in the list
+B not in the list or has higher fscore in the list
+Pushed value :B
+Connecting node: E
+Found
+Outside while loop.
+No in open :1
+A -> E
+
+Enter the starting point :A
+Enter destination :D
+In open :A -> 0
+Smallest in open : A
+Returned node element: A
+Current node: A
+Connecting node: B
+fscore of node B :98
+B not in the list or has higher fscore in the list
+B not in the list or has higher fscore in the list
+Pushed value :B
+Connecting node: E
+fscore of node E :205
+E not in the list or has higher fscore in the list
+E not in the list or has higher fscore in the list
+Pushed value :E
+Connecting node: G
+fscore of node G :100
+G not in the list or has higher fscore in the list
+G not in the list or has higher fscore in the list
+Pushed value :G
+Connecting node: J
+fscore of node J :248
+J not in the list or has higher fscore in the list
+J not in the list or has higher fscore in the list
+Pushed value :J
+Pushed value :A
+In open :B -> 98 E -> 205 G -> 100 J -> 248
+Smallest in open : B
+Returned node element: B
+Current node: B
+Connecting node: A
+fscore of node A :140
+A not in the list or has higher fscore in the list
+A is in list with fscore less than 140
+Connecting node: C
+fscore of node C :109
+C not in the list or has higher fscore in the list
+C not in the list or has higher fscore in the list
+Pushed value :C
+Connecting node: G
+fscore of node G :124
+G is in list with fscore less than 124
+Connecting node: H
+fscore of node H :185
+H not in the list or has higher fscore in the list
+H not in the list or has higher fscore in the list
+Pushed value :H
+Pushed value :B
+In open :E -> 205 G -> 100 J -> 248 C -> 109 H -> 185
+Smallest in open : G
+Returned node element: G
+Current node: G
+Connecting node: A
+fscore of node A :156
+A not in the list or has higher fscore in the list
+A is in list with fscore less than 156
+Connecting node: B
+fscore of node B :134
+B not in the list or has higher fscore in the list
+B is in list with fscore less than 134
+Connecting node: C
+fscore of node C :135
+C is in list with fscore less than 135
+Connecting node: I
+fscore of node I :186
+I not in the list or has higher fscore in the list
+I not in the list or has higher fscore in the list
+Pushed value :I
+Connecting node: J
+fscore of node J :258
+J is in list with fscore less than 258
+Pushed value :G
+In open :E -> 205 J -> 248 C -> 109 H -> 185 I -> 186
+Smallest in open : C
+Returned node element: C
+Current node: C
+Connecting node: B
+fscore of node B :178
+B not in the list or has higher fscore in the list
+B is in list with fscore less than 178
+Connecting node: D
+Found
+Outside while loop.
+No in open :4
+A -> B -> C -> D
